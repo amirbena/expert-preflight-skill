@@ -47,6 +47,8 @@ Ask these silently, scaled to the task's complexity and risk. A simple, low-risk
    - If the original is already sufficient, say **"Proceed unchanged"** with one line of reason, and do not rewrite it.
 4. Stop. Do not run the refined request.
 
+**Output economy**: Prefer the shortest prompt that preserves the user's intent, constraints, and essential acceptance criteria. Remove repetition, boilerplate, obvious instructions, and speculative edge cases. Add detail only when it materially improves execution. Do not expand a short request into a long specification without demonstrated need.
+
 ## Apply
 
 1. Understand the task and its constraints.
